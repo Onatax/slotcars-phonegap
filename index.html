@@ -6,10 +6,20 @@
 		<link rel="stylesheet" href="assets/css/reset.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="screen" />
 		
-		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+		<!-- ============ FOR TESTING LOCALLY ========== 
+		<script src="assets/js/cordova-1.7.0.js" type="text/javascript" charset="utf-8"></script>
+		-->
 		
+		<!-- ============ FOR PRODUCTION BUILD VIA PHONEGAP-BUILD ============== -->
+		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+			  
 	</head>
 	<body>
+	  <!-- =========== FOR TESTING LOCALLY (replace with your IP-Address!)==========
+	  <iframe frameBorder="0" src="http://192.168.0.12:3000">
+    -->
+    
+    <!-- ====== FOR PRODUCTION (USING OUR ONLINE MASTER) ========== -->
     <iframe frameBorder="0" src="http://slotcars.herokuapp.com">
 	</body>
 </html>
