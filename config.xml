@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.playslotcars"
+	version 	= "0.0.1">
+
+	<name>Slotcars</name>
+
+	<description>
+		The best racing game on earth!
+	</description>
+
+	<author href="http://wizzart.at"
+		email="dominik.guzei@gmail.com">
+		Dominik Guzei
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<preference name="orientation" value="landscape" />
+</widget>
